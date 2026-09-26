@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# DATASET - NEVER COMMIT
+# ============================================================
+
+dataset/train/*.tsv
+dataset/test/*.tsv
+
+dataset/processed/**/*.tsv
+dataset/processed/**/*.csv
+dataset/processed/**/*.parquet
+
+# ============================================================
+# GENERATED OUTPUT
+# ============================================================
+
+output/*.tsv
+output/*.csv
+output/*.json
+output/*.zip
+output/*.parquet
+
+# ============================================================
+# EXPERIMENT OUTPUT
+# ============================================================
+
+experiments/**/*.tsv
+experiments/**/*.csv
+experiments/**/*.json
+experiments/**/*.log
+experiments/**/*.pkl
+experiments/**/*.joblib
+
+# Models / checkpoints
+models/
+checkpoints/
+cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+noise_dna_results.txt
+
+# OS files
+.DS_Store
+Thumbs.db
