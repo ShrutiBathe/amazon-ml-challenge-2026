@@ -18,7 +18,7 @@ ENV/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
+dataset/
 # Environment / secrets
 .env
 .env.*
