@@ -1,8 +1,7 @@
-from pathlib import Path
 from collections import Counter
+from pathlib import Path
 
 import pandas as pd
-
 
 CANDIDATE_COLUMNS = [
     "source1_id",
